@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <include layout="@layout/button_divider" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 1"
+        android:id="@+id/slide_c1"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 2"
+        android:id="@+id/slide_c2"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 3"
+        android:id="@+id/slide_c3"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+        
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+         android:text="Choice 4" 
+        android:id="@+id/slide_c4"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 5"
+        android:id="@+id/slide_c5"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 6"
+        android:id="@+id/slide_c6"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/slide_menu_margin"
+        android:gravity="center|left"
+        android:text="Choice 7" 
+        android:id="@+id/slide_c7"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <include layout="@layout/button_divider" />
+    
+</LinearLayout>

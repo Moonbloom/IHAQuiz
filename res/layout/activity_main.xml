@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/black_tiles_background" >
+
+  <TextView
+    android:id="@+id/question_text_view_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:textColor="@color/White"
+    android:textSize="17sp"
+    android:layout_centerHorizontal="true" 
+    android:text="This is a test string - The purpose is to represent a real question" />
+  
+    <Button
+      android:id="@+id/choice_1_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/White"
+      android:layout_below="@id/question_text_view_id"
+      android:text="@string/choice_1" />
+
+    <Button
+      android:id="@+id/choice_2_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/White"
+      android:layout_below="@id/choice_1_id"
+      android:text="@string/choice_2" />
+
+    <Button
+      android:id="@+id/choice_3_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/White"
+      android:layout_below="@id/choice_2_id"
+      android:text="@string/choice_3" />
+    
+    <Button
+      android:id="@+id/choice_4_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/White"
+      android:layout_below="@id/choice_3_id"
+      android:text="@string/choice_4" />
+    
+  <Button
+      android:id="@+id/next_button_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginBottom="14dp"
+      android:layout_marginRight="14dp"
+      android:textColor="@color/White"
+      android:contentDescription="@string/next_button_description"
+      android:drawablePadding="4dp"
+      android:drawableRight="@drawable/arrow_right"
+      android:text="@string/next_button" />
+
+  <Button
+      android:id="@+id/previous_button_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/next_button_id"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:layout_marginBottom="14dp"
+      android:layout_marginLeft="14dp"
+      android:textColor="@color/White"
+      android:contentDescription="@string/previous_button_description"
+      android:drawablePadding="4dp"
+      android:drawableLeft="@drawable/arrow_left"
+      android:text="@string/previous_button" />
+
+  <Button
+      android:id="@+id/show_answer_button_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/White"
+      android:layout_above="@+id/previous_button_id"
+      android:layout_centerHorizontal="true"
+      android:text="@string/show_answer_button" />
+
+</RelativeLayout>

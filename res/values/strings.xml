@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IHAQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    
+    <!-- Strings for main screen -->
+	<string name="choice_1">Choice 1</string>
+	<string name="choice_2">Choice 2</string>
+	<string name="choice_3">Choice 3</string>
+	<string name="choice_4">Choice 4</string>
+	<string name="next_button">Next Q</string>
+	<string name="next_button_description">Next question</string>
+	<string name="previous_button">Prev Q</string>
+	<string name="previous_button_description">Previous question</string>
+	<string name="show_answer_button">Show answer</string>
+	<string name="correct_toast">Correct!</string>
+	<string name="incorrect_toast">Incorrect!</string>
+
+	<!-- These are color codes, usable throughout the entire app -->
+    <color name="Blue">#38C0F4</color>
+    <color name="Green">#36c809</color>
+    <color name="Red">#e50000</color>
+    <color name="White">#FFFFFF</color>
+    
+    <!-- Strings for Settings -->
+	<string name="general_settings">General Settings</string>
+	<string name="question_order">Question order</string>
+	<string name="question_series">Questions are presented in series</string>
+	<string name="question_random">Questions are presented randomly</string>
+	
+</resources>
